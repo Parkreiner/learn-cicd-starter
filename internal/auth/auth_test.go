@@ -53,7 +53,4 @@ func TestGetAPIKey(t *testing.T) {
 			t.Errorf("Wanted parsed token '%s' but got '%s'", tokenValue, res)
 		}
 	})
-	t.Run("Temp failure", func(t *testing.T) {
-		t.Error("Break for now")
-	})
 }
