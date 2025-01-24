@@ -16,5 +16,5 @@ jobs:
               uses: actions/setup-go@v5
               with:
                 go-version: "1.23.0"
-            - name: Force failure
+            - name: Make it succeed, I guess?
               run: (exit 0)
